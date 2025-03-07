@@ -75,6 +75,7 @@ section {
   z-index: 1000;
   justify-content: space-between;
   width: 100%;
+  max-width: 1440px;
 }
 
 .navbar-container {
