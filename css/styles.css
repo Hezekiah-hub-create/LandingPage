@@ -78,6 +78,10 @@ section {
   max-width: 1440px;
 }
 
+.hamburger {
+  display: none;
+}
+
 .navbar-container {
   width: 100%;
   max-width: 1440px;
@@ -316,7 +320,7 @@ section {
 .feature-title {
   font-size: 48px;
   font-weight: bold;
-  color: #2d2d2d;
+  color: #2f281e;
   line-height: 1;
 }
 
@@ -961,4 +965,152 @@ section {
 
 .copyright-logo-link a:hover {
   color: #ff9900;
+}
+
+@media (min-width: 1281px) {
+  /* Add your styles for large screens here */
+
+  .navbar-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .feature-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .footer-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1270px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+
+  .navbar-container {
+    max-width: 1200px;
+    padding: 0 10px;
+  }
+
+  .hero {
+    padding: 20px 40px;
+  }
+  .hero-container {
+    align-items: center;
+    width: 900;
+    max-width: 1200px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+
+  .hero-img img {
+    max-width: 95%;
+    height: auto;
+  }
+
+  .feature-container {
+    padding: 50px 40px;
+  }
+
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+  }
+
+  .feature-card {
+    width: 245px;
+  }
+
+  .feature-card-text {
+    font-size: 16px;
+  }
+
+  .validation-container,
+  .marketer-container {
+    align-items: center;
+    padding: 10px 50px;
+  }
+
+  .validation-content {
+    max-width: 100%;
+    height: 500px;
+  }
+
+  .validation-img img,
+  .marketer-img img {
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .manager-container {
+    align-items: center;
+    padding: 10px 50px;
+  }
+
+  .manager-img img {
+    max-width: 100%;
+  }
+
+  .manager-content {
+    margin-bottom: 50px;
+  }
+
+  .marketing-container {
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 40px;
+  }
+
+  .marketing-title,
+  .marketing-subtitle {
+    text-align: left;
+    width: 95%;
+  }
+
+  .cards-container {
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    padding: 50px 50px;
+  }
+
+  .footer-container {
+    align-items: center;
+  }
+
+  .footer-content {
+    gap: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
 }
