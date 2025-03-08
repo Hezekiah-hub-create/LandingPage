@@ -80,6 +80,9 @@ section {
 
 .hamburger {
   display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
 }
 
 .navbar-container {
@@ -992,7 +995,7 @@ section {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1270px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   .navbar {
     padding: 20px 40px;
   }
