@@ -1355,8 +1355,316 @@ section {
     padding: 8px 20px;
     font-size: 14px;
   }
+}
 
-  /* .copyright {
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar {
+    padding: 30px 30px;
+  }
+
+  .navbar-container {
+    max-width: 900px;
+    padding: 0 10px;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    order: 1;
+  }
+
+  .hero-title {
+    text-align: center;
+    font-size: 55px;
+  }
+
+  .hero-text {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 500px;
+    margin-bottom: 40px;
+  }
+
+  .hero-btns {
+    gap: 50px;
+  }
+
+  .hero-img {
+    order: 2;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .feature {
+    padding: 50px 50px;
+    background-image: none;
+  }
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-title {
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .feature-br {
+    display: none;
+  }
+
+  .feature-cards {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 0px;
+    margin-bottom: 0px;
+  }
+
+  .feature-card:nth-child(4) {
+    margin-top: 0px;
+  }
+
+  .feature-card {
+    width: 100%;
+    padding: 18px;
+    text-align: left;
+  }
+
+  .feature-card-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #2f281e;
+  }
+
+  .feature-card-text {
+    font-size: 20px;
+    color: #2f281e;
+  }
+
+  .feature-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  .validation-container,
+  .marketer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .validation-content,
+  .marketer-content {
+    width: 450px;
+  }
+
+  .validation-title,
+  .marketer-title {
+    font-size: 20px;
+  }
+
+  .validation-subtitle,
+  .marketer-subtitle {
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  .validation-text,
+  .marketer-text {
+    font-size: 18px;
+  }
+
+  .validation-subtitle-2,
+  .validation-subtitle-3,
+  .validation-subtitle-4,
+  .marketer-subtitle-2,
+  .marketer-subtitle-3,
+  .marketer-subtitle-4 {
+    font-size: 25px;
+  }
+
+  .validation-img {
+    gap: 10px;
+    display: flex;
+    height: 390px;
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .marketer-img {
+    gap: 10px;
+    display: flex;
+    height: 420px;
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .manager-container {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 00px;
+  }
+
+  .manager-content {
+    width: 450px;
+  }
+
+  .manager-img {
+    gap: 10px;
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    width: 450px;
+  }
+
+  .manager-subtitle {
+    font-size: 50px;
+    white-space: nowrap;
+  }
+
+  .manager-text {
+    font-size: 20px;
+  }
+
+  .manager-tick {
+    display: flex;
+    gap: 10px;
+    height: 70px;
+  }
+
+  .manager-tick p {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .manager-tick img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .superhero {
+    background-image: none;
+  }
+
+  .marketing {
+    padding: 50px 20px;
+  }
+
+  .marketing-title {
+    font-size: 40px;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .cards {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .footer {
+    padding: 30px 30px;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footer-logo-signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-img {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    order: -1;
+  }
+
+  .footer-img img {
+    height: 31px;
+  }
+
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    order: -1;
+    white-space: wrap;
+  }
+
+  .signup-title {
+    font-size: 25px;
+  }
+
+  .form-control::placeholder {
+    font-size: 18px;
+  }
+
+  .form-control {
+    padding: 14px 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .signup-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  .copyright {
     max-width: 100%;
   }
 
@@ -1372,10 +1680,7 @@ section {
     justify-content: center;
     text-align: center;
     white-space: nowrap;
-  } */
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
