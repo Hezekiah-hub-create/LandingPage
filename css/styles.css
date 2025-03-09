@@ -1684,7 +1684,7 @@ section {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .navbar {
+  /* .navbar {
     padding: 30px 30px;
   }
 
@@ -2006,5 +2006,5 @@ section {
     justify-content: center;
     text-align: center;
     white-space: nowrap;
-  }
+  } */
 }
