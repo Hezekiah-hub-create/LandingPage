@@ -1107,7 +1107,272 @@ section {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+
+  .navbar-container {
+    max-width: 900px;
+    padding: 0 10px;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hero {
+    padding: 20px 50px;
+  }
+
+  .hero-container {
+    align-items: center;
+    width: 900;
+    max-width: 1200px;
+  }
+
+  .hero-content {
+    height: 480px;
+    width: 280px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    margin-bottom: 60px;
+  }
+
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-img img {
+    width: 1000px;
+    height: auto;
+  }
+
+  .feature {
+    padding: 50px 50px;
+    background-image: none;
+  }
+
+  .feature-title {
+    color: #2f281e;
+  }
+
+  .feature-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    height: 500px;
+    width: 600px;
+  }
+
+  .feature-card {
+    width: 345px;
+  }
+
+  .validation-container,
+  .marketer-container {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .validation-content,
+  .marketer-content {
+    width: 650px;
+  }
+
+  .validation-title,
+  .marketer-title {
+    font-size: 20px;
+  }
+
+  .validation-subtitle,
+  .marketer-subtitle {
+    font-size: 60px;
+  }
+
+  .validation-text,
+  .marketer-text {
+    font-size: 20px;
+  }
+
+  .validation-subtitle-2,
+  .validation-subtitle-3,
+  .validation-subtitle-4,
+  .marketer-subtitle-2,
+  .marketer-subtitle-3,
+  .marketer-subtitle-4 {
+    font-size: 30px;
+  }
+
+  .validation-img,
+  .marketer-img {
+    margin-right: 20px;
+    gap: 10px;
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    width: 650px;
+  }
+
+  .manager-container {
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .manager-content {
+    width: 650px;
+  }
+
+  .manager-img {
+    margin-right: 20px;
+    gap: 10px;
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    width: 650px;
+  }
+
+  .marketing-title {
+    font-size: 20px;
+  }
+
+  .manager-subtitle {
+    font-size: 60px;
+  }
+
+  .manager-text {
+    font-size: 20px;
+  }
+
+  .manager-tick {
+    display: flex;
+    gap: 10px;
+    height: 70px;
+  }
+
+  .manager-tick p {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .manager-tick img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .marketing {
+    padding: 50px 50px;
+  }
+
+  .cards-container {
+    width: 670px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .card-title {
+    font-size: 25px;
+  }
+
+  .footer-hr1,
+  .footer-hr2 {
+    width: 90%;
+  }
+
+  .footer {
+    padding: 50px 60px;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .footer-logo-signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .footer-img {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    order: -1;
+  }
+
+  .footer-img img {
+    height: 31px;
+  }
+
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    order: -1;
+    white-space: wrap;
+  }
+
+  .signup-title {
+    font-size: 25px;
+  }
+
+  .form-control::placeholder {
+    font-size: 18px;
+  }
+
+  .form-control {
+    padding: 14px 18px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .signup-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+
+  /* .copyright {
+    max-width: 100%;
+  }
+
+  .copyright-content {
+    display: flex;
+  }
+
+  .copyright-text {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+  } */
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
