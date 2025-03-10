@@ -999,7 +999,7 @@ section {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1270px) {
   .navbar {
     padding: 20px 40px;
   }
